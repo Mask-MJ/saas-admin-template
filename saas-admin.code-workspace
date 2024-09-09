@@ -1,0 +1,160 @@
+{
+  "folders": [
+    {
+      "name": "@saas/backend-mock",
+      "path": "apps/backend-mock",
+    },
+    {
+      "name": "@saas/web-naive",
+      "path": "apps/web-naive",
+    },
+    {
+      "name": "@saas/docs",
+      "path": "docs",
+    },
+    {
+      "name": "@saas/commitlint-config",
+      "path": "internal/lint-configs/commitlint-config",
+    },
+    {
+      "name": "@saas/eslint-config",
+      "path": "internal/lint-configs/eslint-config",
+    },
+    {
+      "name": "@saas/prettier-config",
+      "path": "internal/lint-configs/prettier-config",
+    },
+    {
+      "name": "@saas/stylelint-config",
+      "path": "internal/lint-configs/stylelint-config",
+    },
+    {
+      "name": "@saas/node-utils",
+      "path": "internal/node-utils",
+    },
+    {
+      "name": "@saas/tailwind-config",
+      "path": "internal/tailwind-config",
+    },
+    {
+      "name": "@saas/tsconfig",
+      "path": "internal/tsconfig",
+    },
+    {
+      "name": "@saas/vite-config",
+      "path": "internal/vite-config",
+    },
+    {
+      "name": "@saas-core/design",
+      "path": "packages/@core/base/design",
+    },
+    {
+      "name": "@saas-core/icons",
+      "path": "packages/@core/base/icons",
+    },
+    {
+      "name": "@saas-core/shared",
+      "path": "packages/@core/base/shared",
+    },
+    {
+      "name": "@saas-core/typings",
+      "path": "packages/@core/base/typings",
+    },
+    {
+      "name": "@saas-core/composables",
+      "path": "packages/@core/composables",
+    },
+    {
+      "name": "@saas-core/preferences",
+      "path": "packages/@core/preferences",
+    },
+    {
+      "name": "@saas-core/layout-ui",
+      "path": "packages/@core/ui-kit/layout-ui",
+    },
+    {
+      "name": "@saas-core/menu-ui",
+      "path": "packages/@core/ui-kit/menu-ui",
+    },
+    {
+      "name": "@saas-core/popup-ui",
+      "path": "packages/@core/ui-kit/popup-ui",
+    },
+    {
+      "name": "@saas-core/shadcn-ui",
+      "path": "packages/@core/ui-kit/shadcn-ui",
+    },
+    {
+      "name": "@saas-core/tabs-ui",
+      "path": "packages/@core/ui-kit/tabs-ui",
+    },
+    {
+      "name": "@saas/constants",
+      "path": "packages/constants",
+    },
+    {
+      "name": "@saas/access",
+      "path": "packages/effects/access",
+    },
+    {
+      "name": "@saas/common-ui",
+      "path": "packages/effects/common-ui",
+    },
+    {
+      "name": "@saas/hooks",
+      "path": "packages/effects/hooks",
+    },
+    {
+      "name": "@saas/layouts",
+      "path": "packages/effects/layouts",
+    },
+    {
+      "name": "@saas/plugins",
+      "path": "packages/effects/plugins",
+    },
+    {
+      "name": "@saas/request",
+      "path": "packages/effects/request",
+    },
+    {
+      "name": "@saas/icons",
+      "path": "packages/icons",
+    },
+    {
+      "name": "@saas/locales",
+      "path": "packages/locales",
+    },
+    {
+      "name": "@saas/preferences",
+      "path": "packages/preferences",
+    },
+    {
+      "name": "@saas/stores",
+      "path": "packages/stores",
+    },
+    {
+      "name": "@saas/styles",
+      "path": "packages/styles",
+    },
+    {
+      "name": "@saas/types",
+      "path": "packages/types",
+    },
+    {
+      "name": "@saas/utils",
+      "path": "packages/utils",
+    },
+    {
+      "name": "@saas/playground",
+      "path": "playground",
+    },
+    {
+      "name": "@saas/turbo-run",
+      "path": "scripts/turbo-run",
+    },
+    {
+      "name": "@saas/vsh",
+      "path": "scripts/vsh",
+    },
+  ],
+}
