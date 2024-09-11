@@ -179,7 +179,9 @@
     "json5"
   ],
 
-  "tailwindCSS.experimental.classRegex": [["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]],
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
 
   "github.copilot.enable": {
     "*": true,
@@ -218,6 +220,5 @@
   "i18n-ally.keystyle": "nested",
   "commentTranslate.multiLineMerge": true,
   "vue.server.hybridMode": true,
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "cSpell.words": ["stylelint"]
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

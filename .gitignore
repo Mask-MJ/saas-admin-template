@@ -1,17 +1,32 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# Dependencies
 node_modules
-.pnp
-.pnp.js
-.history
+.DS_Store
+dist
+dist-ssr
+dist.zip
+dist.tar
+dist.war
+.nitro
+.output
+*-dist.zip
+*-dist.tar
+*-dist.war
+coverage
+*.local
+**/.vitepress/cache
+.cache
+.turbo
+.temp
+dev-dist
+.stylelintcache
+yarn.lock
+package-lock.json
+.VSCodeCounter
+**/backend-mock/data
 
-# Local env files
-.env
+# local env files
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*.local
+.eslintcache
 
 logs
 *.log
@@ -25,27 +40,12 @@ vite.config.mjs.*
 vite.config.js.*
 vite.config.ts.*
 
-# Testing
-coverage
-
-# Turbo
-.turbo
-
-# Vercel
-.vercel
-
-# Build Outputs
-.next/
-out/
-build
-dist
-
-
-# Debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Misc
-.DS_Store
-*.pem
+# Editor directories and files
+.idea
+# .vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history

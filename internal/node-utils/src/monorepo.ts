@@ -11,10 +11,13 @@ import { findUpSync } from 'find-up';
  * @param cwd
  */
 function findMonorepoRoot(cwd: string = process.cwd()) {
-  const lockFile = findUpSync(['pnpm-lock.yaml', 'yarn.lock', 'package-lock.json'], {
-    cwd,
-    type: 'file',
-  });
+  const lockFile = findUpSync(
+    ['pnpm-lock.yaml', 'yarn.lock', 'package-lock.json'],
+    {
+      cwd,
+      type: 'file',
+    },
+  );
   return dirname(lockFile || '');
 }
 

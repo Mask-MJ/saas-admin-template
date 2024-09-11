@@ -1,8 +1,8 @@
 {
   "name": "@saas/node-utils",
   "version": "1.0.0",
-  "private": true,
   "description": "Node Utils",
+  "private": true,
   "homepage": "https://github.com/mask-mj/saas-admin-template",
   "bugs": "https://github.com/mask-mj/saas-admin-template/issues",
   "repository": {
