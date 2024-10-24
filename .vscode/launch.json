@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "name": "saas admin naive dev",
+      "request": "launch",
+      "url": "http://localhost:5888",
+      "env": { "NODE_ENV": "development" },
+      "sourceMaps": true,
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
