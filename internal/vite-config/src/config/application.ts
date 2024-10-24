@@ -8,7 +8,6 @@ import { findMonorepoRoot } from '@saas/node-utils';
 
 import { defineConfig, loadEnv, mergeConfig } from 'vite';
 
-import { defaultImportmapOptions, getDefaultPwaOptions } from '../options';
 import { loadApplicationPlugins } from '../plugins';
 import { loadAndConvertEnv } from '../utils/env';
 import { getCommonConfig } from './common';
@@ -16,7 +15,7 @@ import { getCommonConfig } from './common';
 function defineApplicationConfig(userConfigPromise?: DefineApplicationOptions) {
   return defineConfig(async (config) => {
     const options = await userConfigPromise?.(config);
-    const { appTitle, base, port, ...envConfig } = await loadAndConvertEnv();
+    const { base, port, ...envConfig } = await loadAndConvertEnv();
     const { command, mode } = config;
     const { application = {}, vite = {} } = options || {};
     const root = process.cwd();
@@ -33,20 +32,16 @@ function defineApplicationConfig(userConfigPromise?: DefineApplicationOptions) {
       extraAppConfig: true,
       html: true,
       i18n: true,
-      importmapOptions: defaultImportmapOptions,
       injectAppLoading: true,
       injectMetadata: true,
       isBuild,
       license: true,
       mode,
       nitroMock: !isBuild,
-      nitroMockOptions: {},
       print: !isBuild,
       printInfoMap: {
-        'Vben Admin Docs': 'https://doc.vben.pro',
+        'Saas Admin Docs': 'https://doc.saas.pro',
       },
-      pwa: true,
-      pwaOptions: getDefaultPwaOptions(appTitle),
       vxeTableLazyImport: true,
       ...envConfig,
       ...application,
@@ -109,7 +104,7 @@ function createCssOptions(injectGlobalScss = true) {
               const relativePath = relative(root, filepath);
               // apps下的包注入全局样式
               if (relativePath.startsWith(`apps${path.sep}`)) {
-                return `@import "@vben/styles/global";\n${content}`;
+                return `@import "@saas/styles/global";\n${content}`;
               }
               return content;
             },
